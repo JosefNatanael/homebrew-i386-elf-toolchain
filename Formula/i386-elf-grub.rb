@@ -9,6 +9,8 @@ class I386ElfGrub < Formula
 
   def install
     mkdir "grub-build" do
+      ENV["CFLAGS"] = [ENV["CFLAGS"], "-Wno-incompatible-pointer-types"].compact.join(" ")
+
       system "../configure",
         "--disable-nls",
         "--disable-werror",
