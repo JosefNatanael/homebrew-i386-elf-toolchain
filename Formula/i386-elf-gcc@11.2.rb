@@ -8,7 +8,7 @@ class I386ElfGccAT112 < Formula
   depends_on "gmp" => :build
   depends_on "mpfr" => :build
   depends_on "libmpc"
-  depends_on "nativeos/i386-elf-toolchain/i386-elf-binutils"
+  depends_on "josefnatanael/i386-elf-toolchain/i386-elf-binutils"
 
   def install
     mkdir "gcc-build" do

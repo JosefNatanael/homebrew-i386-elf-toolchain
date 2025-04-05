@@ -5,7 +5,7 @@ class I386ElfGrub < Formula
   sha256 "b79ea44af91b93d17cd3fe80bdae6ed43770678a9a5ae192ccea803ebb657ee1"
   revision 1
 
-  depends_on "nativeos/i386-elf-toolchain/i386-elf-gcc"
+  depends_on "josefnatanael/i386-elf-toolchain/i386-elf-gcc"
 
   def install
     mkdir "grub-build" do

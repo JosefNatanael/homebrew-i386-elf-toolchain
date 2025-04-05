@@ -22,24 +22,25 @@ Default version is marked in bold. For older versions, you must use the
 @.
 
 -   i386-elf-binutils
-    -   **2.42 (`nativeos/i386-elf-toolchain/i386-elf-binutils`)**
-    -   2.36.1 (`nativeos/i386-elf-toolchain/i386-elf-binutils@2.36.1`)
+    -   **2.42 (`josefnatanael/i386-elf-toolchain/i386-elf-binutils`)**
+    -   2.36.1 (`josefnatanael/i386-elf-toolchain/i386-elf-binutils@2.36.1`)
 -   i386-elf-gcc
-    -   **14.1.0 (`nativeos/i386-elf-toolchain/i386-elf-gcc`)**
-    -   11.2.0 (`nativeos/i386-elf-toolchain/i386-elf-gcc@11.2`).
-    -   11.1.0 (`nativeos/i386-elf-toolchain/i386-elf-gcc@11.1`).
+    -   **14.1.0 (`josefnatanael/i386-elf-toolchain/i386-elf-gcc`)**
+    -   11.2.0 (`josefnatanael/i386-elf-toolchain/i386-elf-gcc@11.2`).
+    -   11.1.0 (`josefnatanael/i386-elf-toolchain/i386-elf-gcc@11.1`).
 -   i386-elf-gdb
-    -   **10.2.0 (`nativeos/i386-elf-toolchain/i386-elf-gdb`)**
+    -   **10.2.0 (`josefnatanael/i386-elf-toolchain/i386-elf-gdb`)**
 -   i386-elf-grub
-    -   **2.0.6 (`nativeos/i386-elf-toolchain/i386-elf-grub`)**
+    -   **2.0.6 (`josefnatanael/i386-elf-toolchain/i386-elf-grub`)**
 
 ## How to use
 
 Tap the repository and install the packages.
 
-    brew tap nativeos/i386-elf-toolchain
-    brew install nativeos/i386-elf-toolchain/i386-elf-binutils
-    brew install nativeos/i386-elf-toolchain/i386-elf-gcc
+    brew tap josefnatanael/i386-elf-toolchain
+    brew install josefnatanael/i386-elf-toolchain/i386-elf-binutils
+    brew install josefnatanael/i386-elf-toolchain/i386-elf-gcc
+    brew install josefnatanael/i386-elf-toolchain/i386-elf-grub
 
 ## Disclaimer
 
